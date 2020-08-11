@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {},
+  "engines": {
+    "pnpm": ">=5"
+  }
+}
