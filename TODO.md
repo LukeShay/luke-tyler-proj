@@ -18,7 +18,7 @@
 
 # API
 
-- [ ] Setup Auth0
+- [ ] Setup Auth0/Cognito
 - [ ] Create user hierarchy
 - [ ] Create login endpoint
 - [ ] Create authentication handlers
