@@ -1,0 +1,42 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "packages/domain"
+    labels:
+      - "npm"
+      - "dependencies"
+      - "automerge"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore"
+  - package-ecosystem: "npm"
+    directory: "packages/requests"
+    labels:
+      - "npm"
+      - "dependencies"
+      - "automerge"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore"
+  - package-ecosystem: "npm"
+    directory: "apps/web"
+    labels:
+      - "npm"
+      - "dependencies"
+      - "automerge"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore"
+  - package-ecosystem: "npm"
+    directory: "apps/api"
+    labels:
+      - "npm"
+      - "dependencies"
+      - "automerge"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore"
