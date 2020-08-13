@@ -1,3 +1,18 @@
+# Explain
+- [ ] Project structure and monorepos
+- [ ] PNPM
+- [ ] TypeScript
+- [ ] ReactTS 
+- [ ] Serverless Framework
+
+# Planning
+- [ ] Auth provider
+    - [ ] Cognito
+    - [ ] Auth0
+- [ ] Basic roadmap - create milestones and issues
+- [ ] API structure
+- [ ] Web app structure - GatsbyJS or NextJS?
+
 # Setup
 
 - [ ] Create API
