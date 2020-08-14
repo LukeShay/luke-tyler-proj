@@ -3,3 +3,5 @@ dist/
 build/
 junit.xml
 coverage/
+.shadowroot/
+code.code-workspace
