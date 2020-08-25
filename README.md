@@ -11,47 +11,23 @@
 ### Building all apps/packages
 
 ```bash
-pnpm run build --recursive
-```
-
-### Building a specific app/package
-
-```bash
-pnpm --filter <APP/PACKAGE> run build
+yarn cmd build
 ```
 
 ### Testing all apps/packages
 
 ```bash
-pnpm run test --recursive
-```
-
-### Testing a specific app/package
-
-```bash
-pnpm --filter <APP/PACKAGE> run test
+yarn cmd test
 ```
 
 ### Linting all apps/packages
 
 ```bash
-pnpm run lint --recursive
-```
-
-### Linting a specific app/package
-
-```bash
-pnpm --filter <APP/PACKAGE> run lint
+yarn cmd lint
 ```
 
 ### Formatting all apps/packages
 
 ```bash
-pnpm run format --recursive
-```
-
-### Formatting a specific app/package
-
-```bash
-pnpm --filter <APP/PACKAGE> run t
+yarn cmd format
 ```

@@ -4,7 +4,7 @@ const common = require('./common');
 
 const SHADOW_DIR = './.shadowroot';
 
-const { getFileOrDefault, getPackages } = common;
+const { getFileOrDefault } = common;
 
 const workspace = {
   extensions: JSON.parse(getFileOrDefault('./.vscode/extensions.json')),

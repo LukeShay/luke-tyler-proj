@@ -4,6 +4,7 @@ brew upgrade && brew update
 
 brew install nvm
 
-npx pnpm i -g pnpm
+nvm install 12.18.3
+nvm use 12.18.3
 
-pnpm install --recursive
+npm i -g yarn
